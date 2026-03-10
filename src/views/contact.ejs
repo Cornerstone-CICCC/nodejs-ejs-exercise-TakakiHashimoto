@@ -1,0 +1,9 @@
+<%- include("partials/header", {title: "Contact"}) %>
+<h1>Contact</h1>
+<p>Contact</p>
+<form method="post" action="/contact">
+  <input type="text" name="email" required />
+  <input type="text" name="message" />
+  <button type="submit">Submit</button>
+</form>
+<%- include("partials/footer") %>
